@@ -11,7 +11,7 @@ def run_game():
     # # set the background color 
     # bg_color = ((24,24,43))
     # Make a ship 
-    ship = Ship(screen)
+    ship = Ship(ai_settings,screen)
     # Start the loop for game 
     while True:
         gf.check_events(ship)  
