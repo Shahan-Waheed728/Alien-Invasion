@@ -1,8 +1,9 @@
 import pygame 
 from pygame.sprite import Sprite
-class Alien():
+class Alien(Sprite):
     """A class to represent a single alien in the fleet."""
     def __init__(self,ai_settings,screen):
+        super().__init__()
         """Initialize the alien and set it's starting position."""
         self.screen = screen 
         self.ai_settings = ai_settings
@@ -16,20 +17,6 @@ class Alien():
         self.rect.y = self.rect.height
         # Store the alien exact position
         self.x = float(self.rect.x)
-        # # Movement Flag 
-        # self.moving_right = False
-        # self.moving_left = False
-    # def update(self):
-    #     # Update the ship position based on movement flag 
-    #     # Update the ship's center value
-    #     if self.moving_right and self.rect.right < self.screen_rect.right:
-    #         self.center += self.ai_settings.ship_speed_factor
-    #         # self.rect.centerx += 1
-    #     if self.moving_left and self.rect.left > 0:
-    #         self.center -= self.ai_settings.ship_speed_factor
-    #         # self.rect.centerx -= 1
-    #     # Update rect objects from self.center 
-    #     self.rect.centerx = self.center
     def blitme(self):
         # Draw the ship at it's current location 
         self.screen.blit(self.image,self.rect)
