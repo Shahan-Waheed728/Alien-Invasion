@@ -337,24 +337,24 @@ This separation makes the project easier to understand, maintain, debug, and ext
 
 The game was developed incrementally, with each milestone adding new functionality.
 
-1.Create the game window
-2.Create the player ship
-3.mplement ship movement
-4.Implement bullets
-5.Create an alien
-6.Create a complete alien fleet
-7.Implement fleet movement
-8.Implement bullet-alien collisions
-9.Implement fleet respawning
-10.Implement ship-alien collisions
-11.Implement player lives
-12.Add Play button and game state
-13.Implement game reset
-14.Implement dynamic difficulty
-15.Implement scoring
-16.Implement high score
-17.Implement game levels
-18.Display remaining ships
+1. Create the game window
+2. Create the player ship
+3. Implement ship movement
+4. Implement bullets
+5. Create an alien
+6. Create a complete alien fleet
+7. Implement fleet movement
+8. Implement bullet-alien collisions
+9. Implement fleet respawning
+10. Implement ship-alien collisions
+11. Implement player lives
+12. Add Play button and game state
+13. Implement game reset
+14. Implement dynamic difficulty
+15. Implement scoring
+16. Implement high score
+17. Implement game levels
+18. Display remaining ships
 
 This incremental approach helped demonstrate how new features can be added to an existing codebase while continuously refactoring and improving its structure.
 
@@ -362,17 +362,18 @@ This incremental approach helped demonstrate how new features can be added to an
 
 The current version is complete as a learning project, but it could be extended with:
 
--Sound effects and background music
--Different types of aliens
--Special weapons
--Power-ups
--Pause functionality
--Difficulty selection
--Improved visual effects
--Persistent high scores
--Leaderboard system
--Improved user interface
--Project Purpose
+- Sound effects and background music
+- Different types of aliens
+- Special weapons
+- Power-ups
+- Pause functionality
+- Difficulty selection
+- Improved visual effects
+- Persistent high scores
+- Leaderboard system
+- Improved user interface
+
+## Project Purpose
 
 The main purpose of this project was to strengthen Python programming and software engineering fundamentals through practical development.
 
