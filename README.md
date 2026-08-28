@@ -115,15 +115,16 @@ Alien-Invasion/
 └── README.md
 ```
 ## Module Responsibilities
-###File            	### Responsibility
-alien_invasion.py     	Main program and game loop
-settings.py	            Game configuration and settings
-game_stats.py	          Dynamic game state and player statistics
-game_functions.py	      Game events, updates, collisions, and helper functions
-ship.py	                Player spaceship
-alien.py	              Alien behavior and movement
-bullet.py	              Bullet behavior
-scoreboard.py	          Score, high score, level, and remaining ships display
+| File | Responsibility |
+|------|----------------|
+| `alien_invasion.py` | Main program and game loop |
+| `settings.py` | Game configuration and settings |
+| `game_stats.py` | Dynamic game state and player statistics |
+| `game_functions.py` | Game events, updates, collisions, and helper functions |
+| `ship.py` | Player spaceship |
+| `alien.py` | Alien behavior and movement |
+| `bullet.py` | Bullet behavior |
+| `scoreboard.py` | Score, high score, level, and remaining ships display |
 
 The project is divided into separate modules so that each component has a clear responsibility instead of placing the entire game inside one file.
 
@@ -233,13 +234,14 @@ Ship + Alien Collision
 If no ships remain, the game ends.
 
 ## Controls
-###Input	    ###Action
-Left Arrow	     Move ship left
-Right Arrow	     Move ship right
-Space	Fire       bullet
-Mouse Click	     Start the game using the Play button
-Q	               Exit the game
-Close Window	   Exit the game
+| Input | Action |
+|-------|--------|
+| Left Arrow | Move ship left |
+| Right Arrow | Move ship right |
+| Space | Fire bullet |
+| Mouse Click | Start the game using the Play button |
+| Q | Exit the game |
+| Close Window | Exit the game |
 
 ## Technologies Used
 -Python
@@ -248,7 +250,7 @@ Close Window	   Exit the game
 -GitHub
 -Visual Studio Code
 
-##Installation
+## Installation
 ### 1. Clone the Repository
    git clone <repository-url>
 ### 2. Navigate to the Project
@@ -295,7 +297,7 @@ This project helped develop practical understanding of the following concepts.
 A major focus of the project was learning how to structure a growing application.
 Instead of placing everything in a single file, responsibilities were separated across different modules.
 
-###For example:
+### For example:
 ```text
 settings.py
     |
@@ -331,7 +333,7 @@ alien_invasion.py
 ```
 This separation makes the project easier to understand, maintain, debug, and extend.
 
-##Development Progression
+## Development Progression
 
 The game was developed incrementally, with each milestone adding new functionality.
 
@@ -397,6 +399,6 @@ The project was developed incrementally with additional experimentation, debuggi
 
 ### Shahan Waheed
 
-###BS Software Engineering Student
+### BS Software Engineering Student
 
 This project is part of my journey toward becoming a professional software engineer by building practical projects and developing strong programming, architecture, and software engineering fundamentals.
